@@ -1,0 +1,83 @@
+[
+    {
+      "id": 1,
+      "nombre": "CORTE",
+      "precio": 5500
+    },
+    {
+      "id": 2,
+      "nombre": "FLEQUILLO",
+      "precio": 2200
+    },
+    {
+      "id": 3,
+      "nombre": "LAVADO SALON",
+      "precio": 3200
+    },
+    {
+      "id": 4,
+      "nombre": "LAVADO EXILINE",
+      "precio": 6000
+    },
+    {
+      "id": 5,
+      "nombre": "LAVADO LOREAL",
+      "precio": 8000
+    },
+    {
+      "id": 6,
+      "nombre": "HIDRATACION SALON",
+      "precio": 8000
+    },
+    {
+      "id": 7,
+      "nombre": "HIDRATACION LOREAL",
+      "precio": 14000
+    },
+    {
+      "id": 8,
+      "nombre": "SHOCK DE KERATINA",
+      "precio": 14000
+    },
+    {
+      "id": 9,
+      "nombre": "AMPOLLA C/ LAVADO",
+      "precio": 14000
+    },
+    {
+      "id": 10,
+      "nombre": "ALISADO",
+      "precio": 21000
+    },
+    {
+      "id": 11,
+      "nombre": "PEINADO",
+      "precio": 4500
+    },
+    {
+      "id": 12,
+      "nombre": "PEINADO ESPECIAL",
+      "precio": 6000
+    },
+    {
+      "id": 27,
+      "nombre": "ALISADO FLEQUILLO / CONTORNO",
+      "precio": 10000
+    },
+    {
+      "id": 37,
+      "nombre": "CÉLULAS MADRE",
+      "precio": 12000
+    },
+    {
+      "id": 18,
+      "nombre": "HIDRATACION BIOCELL",
+      "precio": 12000
+    },
+    {
+      "id": 42,
+      "nombre": "TRATAMIENTO ALFINOVA",
+      "precio": 12000
+    }
+  ]
+  
