@@ -1,29 +1,14 @@
 @import "../../vars.css";
 
 .navbar{
-    position: block;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 20px;
+    padding-top: 61px;
     z-index: 2;
     margin: 0 10%;
 }
 
-.test{
-    position: block;
-    display: flex;
-    align-items: center;
-    justify-content:left;
-    padding-top: 20px;
-    z-index: 2;
-    margin: 0 10%;
-}
-
-.logo{
-    width: 20%;
-    display: block;
-}
 .title{
     font-size: 30px;
     font-weight: 600;
@@ -49,6 +34,11 @@
     text-decoration: none;
 }
 
+.logo {
+    width: 20vw; /* Porcentaje del ancho del contenedor */
+    max-width: 250px; /* Opcional: Establecer un ancho máximo */
+    margin-right: 50px;
+}
 
 
 
@@ -57,10 +47,6 @@
 }
 
 @media screen and (max-width: 830px){
-    .logo{
-        width: 60%;
-        display: block;
-    }
     .navbar{
         flex-direction: column;
         align-items: flex-start;
@@ -74,6 +60,7 @@
         align-items: flex-end;
         gap: 11px;
         z-index: 3;
+        overflow: hidden;
     }
 
     .menuBtn{
@@ -81,6 +68,11 @@
         cursor: pointer;
         background-color: black;
         border-radius: 5px;
+    }
+
+    .logo {
+        width: 50vw; /* Porcentaje del ancho del contenedor */
+        margin-right: 50px;
     }
 
     .menuItems{

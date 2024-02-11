@@ -12,7 +12,6 @@ export default function App() {
     <section>
       <Navbar/>
       <Historia/>
-      <Servicios/>
     </section>
   )
 }

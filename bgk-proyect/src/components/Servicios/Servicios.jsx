@@ -8,7 +8,7 @@ import serviciosData2 from '../../data/servicios2.json';
 export const Servicios = () => {
   return (
     <section className={styles.container}>
-        <h3> SERVICIOS</h3>
+        <h3 id='servicios'> SERVICIOS</h3>
     <table className={styles.servicios}>
         <thead>
         <tr>

@@ -8,10 +8,7 @@ export const Navbar = () =>{
 
     return (
     <nav className={styles.navbar}>
-        <div className={styles.test}>
-            <img className={styles.logo} src={getImageUrl("nav/bangkok_logo.png")} alt="bgklogo" />
-            <a className={styles.title} href="/">Bangkok</a>
-        </div>
+        <img className={styles.logo} src={getImageUrl("nav/bangkok4.png")} alt="bgklogo" />
         <div className={styles.menu}>
             <img className={styles.menuBtn} 
             src={
@@ -21,8 +18,8 @@ export const Navbar = () =>{
             } alt="menu-button"
             onClick = {() => setMenuOpen (!menuOpen)}/>
             <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
-        onClick={() => setMenuOpen(false)}
-        >
+            onClick={() => setMenuOpen(false)}
+            >
                 <li><a href="#historia">Historia</a></li>
                 <li><a href="#servicios">Servicios</a></li>
                 <li><a href="#find">Donde Encontrarnos</a></li>
