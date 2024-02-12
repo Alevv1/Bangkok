@@ -4,7 +4,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 61px;
     z-index: 2;
     margin: 0 10%;
 }
@@ -25,6 +24,7 @@
     display: flex;
     gap: 47px;
     list-style: none;
+    align-items:flex-start;
 
 }
 
@@ -37,7 +37,7 @@
 .logo {
     width: 20vw; /* Porcentaje del ancho del contenedor */
     max-width: 250px; /* Opcional: Establecer un ancho máximo */
-    margin-right: 50px;
+    margin-right: 15vh;
 }
 
 

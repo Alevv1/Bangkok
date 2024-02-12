@@ -36,7 +36,7 @@
   
 .servicios th, .servicios td {
     border: 1px solid #dddddd; /* Establece las líneas de separación */
-    padding: 8px; /* Ajusta el espacio dentro de las celdas */
+    padding: 8px 50px; /* Ajusta el espacio dentro de las celdas */
     text-align: left; /* Alinea el texto a la izquierda */
 }
   
