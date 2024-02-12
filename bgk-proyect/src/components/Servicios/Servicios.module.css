@@ -1,46 +1,5 @@
-@import "../../vars.css";
-
-.container {
-    position: relative;
-    background-color: rgba(12, 12, 12, 0.051);
-    border-radius: 15px;
-    padding: 73px;
-    margin-top: 129px;
-    z-index: 1;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-  
-.title {
-    color: var(--color-text);
-    font-size: 35px;
-    font-weight: 700;
-    letter-spacing: 1.75px;
-    text-transform: uppercase;
-    margin-bottom: 12px;
-}
 
 
-
-.content {
-    display: flex;
-    flex-direction:column;
-    align-items: center;
-}
-
-.servicios {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px; /* Ajusta el espacio entre la tabla y el contenido superior */
-}
-  
-.servicios th, .servicios td {
-    border: 1px solid #dddddd; /* Establece las líneas de separación */
-    padding: 8px 50px; /* Ajusta el espacio dentro de las celdas */
-    text-align: left; /* Alinea el texto a la izquierda */
-}
-  
-.servicios th {
-    background-color: #f2f2f2; /* Establece un color de fondo para las celdas de encabezado */
-}
-  
+    section{
+        min-height: 120vh;
+    }

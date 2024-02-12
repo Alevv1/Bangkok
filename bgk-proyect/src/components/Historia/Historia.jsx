@@ -1,16 +1,17 @@
 import React from 'react';
 import styles from "./Historia.module.css";
+import "./Historia.module.css"
 
 import { Container } from 'react-bootstrap'; // Importa el componente Container de Bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css'; // Importa los estilos de Bootstrap
 
 function Historia() {
   return (
-    <section id="historia">
+    <section id="historia" >
       <Container>
-        <div className="row">
-          <div className="col-md-12 text-center ">
-            <div className='container my-auto'>
+        <div className="row" style={{ marginBottom: '20px' }}>
+          <div className="col-md-12 text-center">
+            <div className='container my-auto bg-secondary rounded-3 p-5'>
               <p className={styles.title}>HISTORIA</p>
               <p className={styles.content}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga nisi iure nostrum incidunt consequuntur, eos veniam, ipsam libero at quibusdam nam deserunt ea nobis ab, porro explicabo quo facere quaerat.
               Harum id quaerat suscipit dicta impedit adipisci dolore, ab pariatur quas exercitationem, laudantium deserunt consectetur ut beatae. Dolorum temporibus dicta, natus nulla, qui autem aliquid minima cupiditate dolorem eligendi minus.

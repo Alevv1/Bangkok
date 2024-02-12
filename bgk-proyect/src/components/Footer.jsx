@@ -4,9 +4,9 @@ function Footer(){
     return (
         <React.Fragment>
 			<footer className="sticky-footer bg-white">
-				<div className="container my-auto">
+				<div className="container my-auto p-3">
 					<div className="copyright text-center my-auto">
-						<span>Copyright &copy; Dashboard 2024. Alejandro Vallejos Vitalevi</span>
+						<span>Copyright &copy; Dashboard 2024 </span>
 					</div>
 				</div>
 			</footer>
