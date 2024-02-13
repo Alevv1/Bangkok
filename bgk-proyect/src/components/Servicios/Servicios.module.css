@@ -1,5 +1,9 @@
 
 
+
+
+@media screen and (max-width: 830px){
     section{
         min-height: 120vh;
     }
+}
