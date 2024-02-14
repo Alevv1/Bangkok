@@ -1,17 +1,18 @@
 import React from 'react';
+import { Container } from 'react-bootstrap';
 
 function Footer(){
     return (
-        <React.Fragment>
-			<footer className="sticky-footer bg-white">
-				<div className="container my-auto p-3">
-					<div className="copyright text-center my-auto">
+		<Container fluid className="d-flex justify-content-center align-items-center" style={{ backgroundColor: 'black'}}>
+			<footer className="sticky-footer ">
+				<div className="container my-auto p-1">
+					<div className="copyright text-center my-auto" style={{ color: 'white' }}>
 						<span>Copyright &copy; Dashboard 2024 </span>
 					</div>
 				</div>
 			</footer>
 
-        </React.Fragment>
+        </Container>
     )
 }
 export default Footer;

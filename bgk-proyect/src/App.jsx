@@ -8,12 +8,13 @@ import './custom.scss'
 import Servicios from './components/Servicios/Servicios'
 import Footer from './components/Footer'
 import CarouselPage from './components/Carousel/Carousel';
-
+import Slogan from './components/Slogan/Slogan';
 
 export default function App() {
   return (
     <section>
       <Navbarr/>
+      <Slogan/>
       <CarouselPage/>
 
       <Historia/>

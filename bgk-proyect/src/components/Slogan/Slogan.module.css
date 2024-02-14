@@ -1,9 +1,5 @@
 @import "../../vars.css";
 
-section{
-    height: 55vh;
-    min-height: 55vh;
-}
 
 .title{
     font-size: 30px;

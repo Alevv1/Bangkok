@@ -7,6 +7,7 @@ export const Navbarr = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
+        <>
         <Navbar expand="lg" className={styles.navbar}>
             <Container>
                 <Navbar.Brand href="#">
@@ -23,5 +24,7 @@ export const Navbarr = () => {
                 </Navbar.Collapse>
             </Container>
         </Navbar>
+        <hr />
+        </>
     );
 }

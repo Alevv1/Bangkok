@@ -9,7 +9,7 @@ const Servicios = () => {
     <section>
       <Container className="justify-content-center align-items-center p-2 bg-white" >
         <div className="row bg-secondary rounded-3 p-5">
-          <h3 className='text-center p-3' id='servicios'>SERVICIOS</h3>
+          <h3 className='text-center p-1' id='servicios'>SERVICIOS</h3>
           <h5 className='text-center'>Febrero / 2024</h5>
           <Col md={6}>
             <Table striped bordered className="m-auto">
@@ -47,8 +47,8 @@ const Servicios = () => {
               </tbody>
             </Table>
           </Col>
-          <h5 className='text-center p-2 text-danger'>10% de descuento en todos nuestros servicios abonando en efectivo. Aceptamos tarjetas de crédito y débito.</h5>
-          <h5 className='text-center p-2 text-danger strong'>*Los precios son estimativos. Para trabajos especiales de coloración consultar el precio previamente. </h5>
+          <h5 className='text-center p-3 text-danger'>10% de descuento en todos nuestros servicios abonando en efectivo. Aceptamos tarjetas de crédito y débito.</h5>
+          <h5 className='text-center  text-danger strong'>*Los precios son estimativos. Para trabajos especiales de coloración consultar el precio previamente. </h5>
         </div>
       </Container>
     </section>
