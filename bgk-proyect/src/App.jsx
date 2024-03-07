@@ -21,7 +21,6 @@ export default function App() {
       <Historia/>
       <Servicios/>
       <Redes/>
-
       <Footer/>
     </section>
   )

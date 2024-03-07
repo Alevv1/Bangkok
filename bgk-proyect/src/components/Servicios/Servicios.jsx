@@ -6,11 +6,10 @@ import './Servicios.module.css';
 
 const Servicios = () => {
   return (
-    <section>
-      <Container fluid className="justify-content-center align-items-center p-2 bg-white" >
-        <div className="row bg-secondary rounded-3 p-5">
-          <h3 className='text-center p-1' id='servicios'>SERVICIOS</h3>
-          <h5 className='text-center'>Febrero / 2024</h5>
+      <Container fluid className="d-flex justify-content-center align-items-center p-2 bg-black" id='servicios' >
+        <div className="row bg-white rounded-3 p-5 border border-white">
+          <h3 className='text-center p-1' >SERVICIOS</h3>
+          <h5 className='text-center'>Marzo / 2024</h5>
           <Col md={6}>
             <Table striped bordered className="m-auto">
               <thead>
@@ -51,7 +50,6 @@ const Servicios = () => {
           <h5 className='text-center  text-danger strong'>*Los precios son estimativos. Para trabajos especiales de coloración consultar el precio previamente. </h5>
         </div>
       </Container>
-    </section>
   );
 };
 
