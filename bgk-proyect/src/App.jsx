@@ -9,6 +9,7 @@ import Servicios from './components/Servicios/Servicios'
 import Footer from './components/Footer'
 import CarouselPage from './components/Carousel/Carousel';
 import Slogan from './components/Slogan/Slogan';
+import Redes from './components/Redes/Redes'
 
 export default function App() {
   return (
@@ -19,6 +20,8 @@ export default function App() {
 
       <Historia/>
       <Servicios/>
+      <Redes/>
+
       <Footer/>
     </section>
   )

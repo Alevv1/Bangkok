@@ -7,7 +7,7 @@ import './Servicios.module.css';
 const Servicios = () => {
   return (
     <section>
-      <Container className="justify-content-center align-items-center p-2 bg-white" >
+      <Container fluid className="justify-content-center align-items-center p-2 bg-white" >
         <div className="row bg-secondary rounded-3 p-5">
           <h3 className='text-center p-1' id='servicios'>SERVICIOS</h3>
           <h5 className='text-center'>Febrero / 2024</h5>
