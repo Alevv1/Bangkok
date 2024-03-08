@@ -7,7 +7,7 @@ import Image from 'react-bootstrap/Image';
 
 function Historia() {
   return (
-    <Container fluid className="d-flex justify-content-center align-items-center p-5 text-center" style={{ backgroundColor: 'black'}} id='historia'>
+    <Container fluid className="d-flex justify-content-center align-items-center p-5 text-center" style={{ backgroundColor: 'black'}} id='historia' >
       <Row>
 
         <Col className="text-center">

@@ -11,6 +11,8 @@ import CarouselPage from './components/Carousel/Carousel';
 import Slogan from './components/Slogan/Slogan';
 import Redes from './components/Redes/Redes'
 import DondeEncontrarnos from './components/DondeEncontrarnos/DondeEncontrarnos';
+import Mapa from './components/Mapa/Mapa';
+
 
 export default function App() {
   return (
@@ -20,6 +22,7 @@ export default function App() {
       <CarouselPage/>
       <Historia/>
       <DondeEncontrarnos/>
+      <Mapa/>
       <Servicios/>
       <Redes/>
       <Footer/>
