@@ -10,6 +10,7 @@ import Footer from './components/Footer'
 import CarouselPage from './components/Carousel/Carousel';
 import Slogan from './components/Slogan/Slogan';
 import Redes from './components/Redes/Redes'
+import DondeEncontrarnos from './components/DondeEncontrarnos/DondeEncontrarnos';
 
 export default function App() {
   return (
@@ -17,8 +18,8 @@ export default function App() {
       <Navbarr/>
       <Slogan/>
       <CarouselPage/>
-
       <Historia/>
+      <DondeEncontrarnos/>
       <Servicios/>
       <Redes/>
       <Footer/>
