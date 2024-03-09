@@ -12,7 +12,7 @@ import Slogan from './components/Slogan/Slogan';
 import Redes from './components/Redes/Redes'
 import DondeEncontrarnos from './components/DondeEncontrarnos/DondeEncontrarnos';
 import Mapa from './components/Mapa/Mapa';
-
+import Turnos from './components/Turnos/Turnos';
 
 export default function App() {
   return (
@@ -23,6 +23,7 @@ export default function App() {
       <Historia/>
       <DondeEncontrarnos/>
       <Mapa/>
+      <Turnos/>
       <Servicios/>
       <Redes/>
       <Footer/>

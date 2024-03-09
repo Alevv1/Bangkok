@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 function Mapa() {
   return (
-    <Container fluid className="d-flex justify-content-center align-items-center">
+    <Container fluid className="d-flex justify-content-center align-items-center pb-5">
       <Row>
         <Col xs={12} md={12} xl={12}>
           <iframe

@@ -5,7 +5,7 @@ import Mapa from '../Mapa/Mapa';
 
 function DondeEncontrarnos() {
     return (
-        <Container fluid className="d-flex justify-content-center align-items-center p-5 text-center">
+        <Container fluid className="d-flex justify-content-center align-items-center p-5 text-center" id='find'>
         <Row className="align-items-center">
             <Col>
               <h3 className={styles.title}>Donde Encontrarnos</h3>

@@ -6,7 +6,7 @@ import './Servicios.module.css';
 
 const Servicios = () => {
   return (
-      <Container fluid className="d-flex justify-content-center align-items-center p-2 bg-black" id='servicios' >
+      <Container fluid className="d-flex justify-content-center align-items-center p-5 bg-black " id='servicios' >
         <div className="row bg-white rounded-3 p-5 border border-white">
           <h3 className='text-center p-1' >SERVICIOS</h3>
           <h5 className='text-center'>Marzo / 2024</h5>
